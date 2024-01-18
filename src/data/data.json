@@ -1,0 +1,195 @@
+[
+    {
+        "id": 1,
+        "item": "Carrots",
+        "category": "fruit-veg",
+        "emoji": "🥕",
+        "price": "6.59",
+        "weight": 1000
+    },
+    {
+        "id": 2,
+        "item": "Cheddar Cheese",
+        "category": "dairy",
+        "brand": "Sharp",
+        "emoji": "🧀",
+        "price": "16.99",
+        "weight": 1000
+    },
+    {
+        "id": 3,
+        "item": "Blue Cheese",
+        "category": "dairy",
+        "brand": "Popular",
+        "emoji": "🧀",
+        "price": "16.99",
+        "weight": 1000
+    },
+    {
+        "id": 4,
+        "item": "Crisps",
+        "category": "cupboards",
+        "brand": "Ripples",
+        "emoji": "🥕",
+        "price": "5.99",
+        "weight": 1000
+    },
+    {
+        "id": 5,
+        "item": "Cheddar Cheese",
+        "category": "dairy",
+        "brand": "Calverly",
+        "emoji": "🧀",
+        "price": "16.99",
+        "weight": 1000
+    },
+    {
+        "id": 6,
+        "item": "Pumpkin",
+        "category": "fruit-veg",
+        "emoji": "🎃",
+        "price": "2.99",
+        "weight": 1000
+    },
+    {
+        "id": 7,
+        "item": "Red Onions",
+        "category": "fruit-veg",
+        "emoji": "🧅",
+        "price": "11.99",
+        "weight": 1000
+    },
+    {
+        "id": 8,
+        "item": "Spinach",
+        "category": "fruit-veg",
+        "emoji": "🌱",
+        "price": "8.99",
+        "weight": 1000
+    },
+    {
+        "id": 9,
+        "item": "Kale",
+        "category": "fruit-veg",
+        "emoji": "🌿",
+        "price": "6.99",
+        "weight": 1000
+    },
+    {
+        "id": 10,
+        "item": "Brocoli",
+        "category": "fruit-veg",
+        "emoji": "🥦",
+        "price": "15.49",
+        "weight": 1000
+    },
+    {
+        "id": 11,
+        "item": "Mushrooms",
+        "category": "fruit-veg",
+        "emoji": "🍄",
+        "price": "36.99",
+        "weight": 1000
+    },
+    {
+        "id": 12,
+        "item": "Iceberg Lettuce",
+        "category": "fruit-veg",
+        "emoji": "🥬",
+        "price": "5.75",
+        "weight": 1000
+    },
+    {
+        "id": 13,
+        "item": "Cucumber",
+        "category": "fruit-veg",
+        "emoji": "🥒",
+        "price": "4.39",
+        "weight": 1000
+    },
+    {
+        "id": 14,
+        "item": "Tomato Large",
+        "category": "fruit-veg",
+        "emoji": "🥒",
+        "price": "8.80",
+        "weight": 1000
+    },
+    {
+        "id": 15,
+        "item": "Cherry Tomatoes",
+        "category": "fruit-veg",
+        "emoji": "🥒",
+        "price": "14.99",
+        "weight": 1000
+    },
+    {
+        "id": 16,
+        "item": "Red peppers",
+        "category": "fruit-veg",
+        "emoji": "🌶️",
+        "price": "17.99",
+        "weight": 1000
+    },
+    {
+        "id": 17,
+        "item": "Yellow peppers",
+        "category": "fruit-veg",
+        "emoji": "🥒",
+        "price": "18.75",
+        "weight": 1000
+    },
+    {
+        "id": 18,
+        "item": "Avocado",
+        "category": "fruit-veg",
+        "emoji": "🥑",
+        "price": "4.49",
+        "weight": 1000
+    },
+    {
+        "id": 19,
+        "item": "Apples",
+        "brand": "Gala",
+        "category": "fruit-veg",
+        "emoji": "🍎",
+        "price": "5.88",
+        "weight": 1000
+    },
+    {
+        "id": 20,
+        "item": "Kiwis",
+        "category": "fruit-veg",
+        "emoji": "🥝",
+        "price": "1.29",
+        "weight": 1000
+    },
+    {
+        "id": 21,
+        "item": "Bananas",
+        "category": "fruit-veg",
+        "emoji": "🍌",
+        "price": "4.99",
+        "weight": 1000
+    },
+    {
+        "id": 22,
+        "item": "Plums",
+        "category": "fruit-veg",
+        "emoji": "🍌",
+        "price": "1.49",
+        "weight": 1000
+    },
+    {
+        "id": 23,
+        "item": "Pineapple",
+        "category": "fruit-veg",
+        "emoji": "🍍",
+        "price": "5.99",
+        "weight": 1000
+    }
+
+
+
+
+]
