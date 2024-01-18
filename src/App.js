@@ -15,7 +15,6 @@ function App() {
   console.log('start of function', filteredData)
 
   useEffect(() => {
-    //inital price based on 1kg of product
     const initialData = data.map((item) => {
       let initialPrice = item.price
       if(weightUnits === 'g'){
@@ -27,7 +26,6 @@ function App() {
       }
       return {...item, calculatedPrice: initialPrice}
     })
-    //update state here to reflect new data
     setFilteredData(initialData)
 
   }, [weightUnits, weight])
