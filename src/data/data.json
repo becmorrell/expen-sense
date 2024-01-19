@@ -187,9 +187,97 @@
         "emoji": "🍍",
         "price": "5.99",
         "weight": 1000
+    },
+    {
+        "id": 24,
+        "item": "Tinned Tomatoes (Diced)",
+        "category": "cupboards",
+        "emoji": "🥫",
+        "price": "8.48",
+        "weight": 1000
+    },
+    {
+        "id": 25,
+        "item": "Tinned Tomatoes (Plum)",
+        "category": "cupboards",
+        "brand": "Waitrose",
+        "emoji": "🥫",
+        "price": "9.98",
+        "weight": 1000
+    },
+    {
+        "id": 26,
+        "item": "Black beans",
+        "category": "cupboards",
+        "emoji": "🥫",
+        "price": "7.48",
+        "weight": 1000
+    },
+    {
+        "id": 27,
+        "item": "Sweetcorn",
+        "category": "cupboards",
+        "emoji": "🌽",
+        "price": "7.48",
+        "weight": 1000
+    }, 
+    {
+        "id": 28,
+        "item": "Kidney Beans",
+        "category": "cupboards",
+        "emoji": "🫘",
+        "price": "7.48",
+        "weight": 1000
+    },
+    {
+        "id": 29,
+        "item": "Coconut Milk",
+        "category": "cupboards",
+        "emoji": "🥥",
+        "price": "13.13",
+        "weight": 1000
+    },
+    {
+        "id": 30,
+        "item": "Coconut Milk",
+        "brand": "Waitrose",
+        "category": "cupboards",
+        "emoji": "🥥",
+        "price": "11.23",
+        "weight": 1000
+    },
+    {
+        "id": 31,
+        "item": "Chickpeas",
+        "category": "cupboards",
+        "emoji": "🫘",
+        "price": "7.48",
+        "weight": 1000
+    },
+    {
+        "id": 32,
+        "item": "Butter Beans",
+        "category": "cupboards",
+        "emoji": "🫘",
+        "price": "7.48",
+        "weight": 1000
+    },
+    {
+        "id": 33,
+        "item": "Tuna",
+        "category": "cupboards",
+        "emoji": "🐠",
+        "price": "7.14",
+        "weight": 1000
+    },
+    {
+        "id": 33,
+        "item": "Marlin",
+        "category": "meat-fish",
+        "emoji": "🐠",
+        "price": "22.99",
+        "weight": 1000
     }
-
-
 
 
 ]

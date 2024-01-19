@@ -10,53 +10,49 @@ function App() {
   const [searchTerm, setSearchTerm] = useState('')
   const [weight, setWeight] = useState(1)
   const [weightUnits, setWeightUnits] = useState('kg')
+  const [weightKG, setWeightKG] = useState(1) 
   const [filteredData, setFilteredData] = useState(data)
 
-  console.log('start of function', filteredData)
-
   useEffect(() => {
-    const initialData = data.map((item) => {
-      let initialPrice = item.price
-      if(weightUnits === 'g'){
-        initialPrice = ((item.price * weight) / 1000).toFixed(2)
-      }
-      else {
-        initialPrice = (item.price * weight).toFixed(2)
-        console.log('else cond',initialPrice)
-      }
-      return {...item, calculatedPrice: initialPrice}
-    })
-    setFilteredData(initialData)
+    switch(weightUnits){
+      case "kg":
+        setWeightKG(weight)
+        break;
+      
+      case "g":
+        setWeightKG(weight / 1000);
+        break;
+      
+      case "lb":
+        setWeightKG(weight * 0.453592)
+        break;
+      
+      default:
+        setWeightKG(weight)
+    }
 
   }, [weightUnits, weight])
 
   function handleSearchChange(event) {
     const { value } = event.target
-    console.log('youre typing something new')
     setSearchTerm(value)
     filterData(value)
   }
 
   function handleWeightChange(e) {
-    console.log('weight change', e.target.value)
     const newWeight = e.target.value
     setWeight(newWeight)
-
   }
 
   function handleUnitsChange(e) {
-    console.log('unit change', e.target.value)
-
     let newUnits = e.target.value
     setWeightUnits(newUnits)
-
   }
 
   function filterData(searchTerm) {
     const filteredData = data.filter((item) => {
       return item.item.toLowerCase().includes(searchTerm.toLowerCase())
     })
-    console.log(filteredData)
     setFilteredData(filteredData)
   }
 
@@ -71,7 +67,7 @@ function App() {
           <div>
           <ul className='list-container'>
             { searchTerm && filteredData.map((item) => (
-              <ListItem key={item.id} name={item.item} brand={item.brand} price={item.calculatedPrice}
+              <ListItem key={item.id} name={item.item} brand={item.brand} price={(item.price * weightKG).toFixed(2)}
                emoji={item.emoji}></ListItem>
             ))
             }

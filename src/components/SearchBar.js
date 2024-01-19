@@ -1,5 +1,4 @@
 export default function SearchBar(props){
-    console.log(props)
     return (
         <form className="form-container">
             <label className="search-label" htmlFor="search">Search for an item:</label>
